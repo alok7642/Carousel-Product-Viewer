@@ -2,7 +2,6 @@ import axios from "axios"
 
 import { useEffect, useRef, useState } from "react";
 
-
 export function CarouselDemo() {
     const [product, setProduct] = useState({ id: 0, title: null, description: null, image: null, category: null, price: 0, rating: { rate: 0, count: 0 } });
 
